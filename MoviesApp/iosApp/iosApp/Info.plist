@@ -44,5 +44,19 @@
 	</array>
 	<key>UILaunchScreen</key>
 	<dict/>
+  
+  <key>NSAppTransportSecurity</key>
+  <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+          <key>www.omdbapi.com</key>
+          <dict>
+              <key>NSIncludesSubdomains</key>
+              <true/>
+              <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+              <true/>
+          </dict>
+      </dict>
+  </dict>
 </dict>
 </plist>

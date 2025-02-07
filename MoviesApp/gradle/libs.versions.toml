@@ -7,6 +7,7 @@ androidx-activityCompose = "1.8.0"
 
 koinCore = "3.5.3"
 kotlinxSerializationJson = "1.6.0"
+kotlinSerialization = "1.7.3"
 ktorClientAndroid = "2.3.11"
 ktorClientCore = "2.3.12"
 ktorClientContentNegotiation = "2.3.11"
@@ -45,6 +46,8 @@ ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "k
 
 androidx-lifecycle-viewmodel-koin = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
 kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.6.3" }
+kotlinSerialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinSerialization" }
+kotlinSerializationCore = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version.ref = "kotlinSerialization" }
 
 #glide
 glide = { module = "com.github.bumptech.glide:glide", version = "4.16.0" }

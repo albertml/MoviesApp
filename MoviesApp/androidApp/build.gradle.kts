@@ -11,7 +11,7 @@ plugins {
 
 android {
     namespace = "com.example.moviesapp.android"
-    compileSdk = 34
+    compileSdk = 35
     defaultConfig {
         applicationId = "com.example.moviesapp.android"
         minSdk = 24
@@ -47,5 +47,10 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.navigation.compose)
     debugImplementation(libs.compose.ui.tooling)
+    implementation(libs.kotlinx.serialization)
+    implementation(libs.koin.androidx.compose)
+    implementation(libs.ktor.client.android)
+    implementation(libs.glide.compose)
 }

@@ -53,3 +53,5 @@ fun MyApplicationTheme(
         content = content
     )
 }
+
+val SkyBlueColor = Color(0xFF448EE4)

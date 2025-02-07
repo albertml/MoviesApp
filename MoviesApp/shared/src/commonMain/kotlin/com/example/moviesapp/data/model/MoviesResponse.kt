@@ -1,4 +1,10 @@
 package com.example.moviesapp.data.model
 
-class MoviesResponse {
-}
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class MoviesResponse(
+    val Response: String,
+    val Search: List<SearchDto>,
+    val totalResults: String
+)

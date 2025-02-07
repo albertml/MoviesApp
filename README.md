@@ -1,5 +1,8 @@
 # MoviesApp
 
-| Image 1 | Image 2 |
-|---------|---------|
-| ![Image 1](android.png) | ![Image 2](ios.png) |
+<table>
+  <tr>
+    <td><img src="android.png" width="289" height="627"></td>
+    <td><img src="ios.png" width="300" height="200"></td>
+  </tr>
+</table>
